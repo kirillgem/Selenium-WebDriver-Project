@@ -3,13 +3,18 @@
 <suite name="FirstTestSuite" verbose="1" >
   <test name="FirstTest" >
     <classes>
-       <class name="com.dice.FirstTest">
-	       <methods>
-	        <!--<include name=".*enabledTestMethod.*"/>-->
-	        <!-- <exclude name=".*brokenTestMethod.*"/> -->
-	        <exclude name="secondTestMethod"/>
-	      </methods>
-      </class>
-    </classes>
-  </test>
+	       <class name="com.dice.FirstTest">
+		       <methods>
+		        <!--<include name=".*enabledTestMethod.*"/>-->
+		        <!-- <exclude name=".*brokenTestMethod.*"/> -->
+		        <!-- <exclude name="secondTestMethod"/> -->
+		      </methods>
+	      </class>
+       </classes>
+    </test>
+      <test name="SecondTest" >
+    	  <classes>
+	       <class name="com.dice.SecondTest"/> 
+      </classes>
+    </test> 
 </suite>

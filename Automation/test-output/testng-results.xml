@@ -2,20 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10213" started-at="2018-03-03T17:51:12Z" finished-at="2018-03-03T17:51:22Z">
+  <suite name="FirstTestSuite" duration-ms="13145" started-at="2018-03-03T20:05:14Z" finished-at="2018-03-03T20:05:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10213" started-at="2018-03-03T17:51:12Z" finished-at="2018-03-03T17:51:22Z">
+    <test name="FirstTest" duration-ms="10107" started-at="2018-03-03T20:05:14Z" finished-at="2018-03-03T20:05:24Z">
       <class name="com.dice.FirstTest">
-        <test-method status="PASS" signature="firstTestMethod()[pri:0, instance:com.dice.FirstTest@1d057a39]" name="firstTestMethod" duration-ms="7158" started-at="2018-03-03T17:51:12Z" finished-at="2018-03-03T17:51:19Z">
+        <test-method status="PASS" signature="methodSetUp()[pri:0, instance:com.dice.FirstTest@26653222]" name="methodSetUp" is-config="true" duration-ms="1772" started-at="2018-03-03T20:05:14Z" finished-at="2018-03-03T20:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method status="PASS" signature="firstTestMethod()[pri:0, instance:com.dice.FirstTest@26653222]" name="firstTestMethod" duration-ms="8184" started-at="2018-03-03T20:05:15Z" finished-at="2018-03-03T20:05:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTestMethod -->
-        <test-method status="PASS" signature="secondTestMethod()[pri:0, instance:com.dice.FirstTest@1d057a39]" name="secondTestMethod" duration-ms="3006" started-at="2018-03-03T17:51:19Z" finished-at="2018-03-03T17:51:22Z">
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:com.dice.FirstTest@26653222]" name="methodTearDown" is-config="true" duration-ms="116" started-at="2018-03-03T20:05:24Z" finished-at="2018-03-03T20:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- com.dice.FirstTest -->
+    </test> <!-- FirstTest -->
+    <test name="SecondTest" duration-ms="2994" started-at="2018-03-03T20:05:24Z" finished-at="2018-03-03T20:05:27Z">
+      <class name="com.dice.SecondTest">
+        <test-method status="PASS" signature="methodSetUp()[pri:0, instance:com.dice.SecondTest@4dfa3a9d]" name="methodSetUp" is-config="true" duration-ms="886" started-at="2018-03-03T20:05:24Z" finished-at="2018-03-03T20:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method status="PASS" signature="secondTestMethod()[pri:0, instance:com.dice.SecondTest@4dfa3a9d]" name="secondTestMethod" duration-ms="2005" started-at="2018-03-03T20:05:25Z" finished-at="2018-03-03T20:05:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTestMethod -->
-      </class> <!-- com.dice.FirstTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:com.dice.SecondTest@4dfa3a9d]" name="methodTearDown" is-config="true" duration-ms="99" started-at="2018-03-03T20:05:27Z" finished-at="2018-03-03T20:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- com.dice.SecondTest -->
+    </test> <!-- SecondTest -->
+  </suite> <!-- FirstTestSuite -->
 </testng-results>
