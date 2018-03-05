@@ -1,20 +1,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
   
 <suite name="FirstTestSuite" verbose="1" >
-  <test name="FirstTest" >
+  <test name="LogInTest" >
     <classes>
-	       <class name="com.dice.FirstTest">
+	       <class name="com.dice.LogInTest">
 		       <methods>
 		        <!--<include name=".*enabledTestMethod.*"/>-->
 		        <!-- <exclude name=".*brokenTestMethod.*"/> -->
 		        <!-- <exclude name="secondTestMethod"/> -->
+		        <exclude name="positiveLogInTest"/>
 		      </methods>
 	      </class>
        </classes>
     </test>
-      <test name="SecondTest" >
+      <!--  <test name="SecondTest" >
     	  <classes>
 	       <class name="com.dice.SecondTest"/> 
       </classes>
-    </test> 
+    </test> -->
 </suite>
